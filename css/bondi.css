@@ -3,6 +3,7 @@
     --green: #33d1cc;
     --red: #ff3150;
     --yellow: #ffc400;
+    --section: #eff7fa;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -59,5 +60,41 @@ color: var(--green);
     background-color: var(--dark);
     min-height: calc(100vh - 70px);
 }
-
 /* End Landing */
+
+/* Start Features */
+.features .main-title::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .main-title .icon-title {
+    color: var(--yellow);
+    font-weight: normal;
+    font-size:95px;
+}
+.features .icon-holder {
+    height: 200px;
+
+}
+.features .icon-holder svg {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .icon-holder .number{
+    font-size: 12rem;
+    color: var(--section);
+}
+.features .icon-holder .icon{
+    color: var(--green);
+}
+.features .feat h4 {
+    color: var(--yellow);
+}
+
+/* End Features */
