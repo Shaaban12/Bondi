@@ -112,4 +112,9 @@ color: var(--green);
 .our-work ul li:not(.active):hover {
     color: var(--red);
 }
+.our-work .box {
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+}
 /* End Our Work */
