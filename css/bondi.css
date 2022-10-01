@@ -116,5 +116,27 @@ color: var(--green);
     position: relative;
     padding: 5px;
     overflow: hidden;
+    background-color: var(--yellow);
 }
+.our-work .box::before {
+    content: attr(data-work);
+    color: var(--yellow);
+    background-color: #ff3150e2;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    transform: translateX(calc(-100% - 5px));
+    transition: 0.4s;
+}
+.our-work .box:hover::before {
+    transform: translateX(0);
+}
+/* End Our Work */
+
+/* Start Our Work */
 /* End Our Work */
