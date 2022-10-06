@@ -138,5 +138,8 @@ color: var(--green);
 }
 /* End Our Work */
 
-/* Start Our Work */
-/* End Our Work */
+/* Start Stuff */
+.stuff .description {
+    max-width: 500px;
+}
+/* End Stuff */
