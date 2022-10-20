@@ -143,3 +143,15 @@ color: var(--green);
     max-width: 500px;
 } 
 /* End Stuff */
+
+/* Start Our eame */
+.teame {
+    background-color: var(--section);
+}
+.teame h2 {
+    color: var(--yellow);
+}
+.teame .box h4 {
+    background-color: var(--green);
+}
+/* End Our Teame */
