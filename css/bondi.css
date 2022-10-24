@@ -144,7 +144,7 @@ color: var(--green);
 } 
 /* End Stuff */
 
-/* Start Our eame */
+/* Start Our Team */
 .teame {
     background-color: var(--section);
 }
@@ -154,4 +154,10 @@ color: var(--green);
 .teame .box h4 {
     background-color: var(--green);
 }
-/* End Our Teame */
+/* End Our Team */
+
+/* Start Projects */
+.projects {
+    background-color: var(--dark);
+}
+/* End Projrcts */
