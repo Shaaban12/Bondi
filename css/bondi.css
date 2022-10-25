@@ -161,3 +161,9 @@ color: var(--green);
     background-color: var(--dark);
 }
 /* End Projrcts */
+
+/* Start Subscribe */
+.subscribe {
+    background-color: var(--yellow);
+}
+/* End Subscribe */
