@@ -166,4 +166,25 @@ color: var(--green);
 .subscribe {
     background-color: var(--yellow);
 }
+.subscribe input[type="text"] {
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+    outline: none;
+}
+.subscribe ::placeholder {
+    color: white;
+}
+.subscribe input[type="submit"] {
+    background-color: var(--dark);
+    color: var(--yellow);
+    border: 2px solid transparent;
+    font-weight: bold;
+}
+.subscribe input[type="submit"]:hover {
+    background-color: transparent;
+    border: 2px solid var(--dark);
+    font-weight: bold;
+}
 /* End Subscribe */
