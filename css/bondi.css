@@ -188,3 +188,9 @@ color: var(--green);
     font-weight: bold;
 }
 /* End Subscribe */
+
+/* Start Footer  */
+footer {
+    background-color: var(--dark);
+}
+/* End Footer  */
